@@ -28,7 +28,6 @@ The context aware debugger is an odd little "debug" button that will appear in t
 
 `note:` The debug button mostly won't do anything. Only specific contexts have any functionality.
 
-
 ## Lua Console
 
 The Lua console can be summoned by pressing `c` to summon the chat window, then typing `/lua` to enter lua mode. This mode essentially allows you to execute lua code, although it does not store state between commands.
@@ -47,11 +46,24 @@ Once in lua mode, there are a few useful functions you might want to call:
 
 ### Spawn
 
- - Format: `spawn(object_id)`
- - Example: `spawn('mammoth')`
- - Description: Spawns the object if it exists, and places it at your feet.
+- Format: `spawn(object_id)`
+- Example: `spawn('mammoth')`
+- Description: Spawns the object if it exists, and places it at your feet.
 
 ### Instant Build Mode
 
- - Format: `completeCheat()`
- - Description: Enables instant build mode.
+- Format: `completeCheat()`
+- Description: Enables instant build mode.
+
+### Set Sun
+
+- Format: `setSunrise()`
+- Description: Sets the sun to sunrise.
+
+- Format: `setSunset()`
+- Description: Sets the sun to sunset.
+
+### Teleport
+
+- Format: `tp()`
+- Description: Sets the sun to sunset.
